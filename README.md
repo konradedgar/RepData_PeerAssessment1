@@ -13,7 +13,6 @@ I would suggest that you simply source the analysis.Rmd file and run it in R Stu
 =======
 ### Analysis
 The main analysis file is entitled **analysis.Rmd**, please feel free to source it and run it.
->>>>>>> FETCH_HEAD
 
 ### Data
 The code will look if the zip archive or CSV is available in the current  directory, if it isn't it will try to download the required file. The CSV file is available in the repo.
