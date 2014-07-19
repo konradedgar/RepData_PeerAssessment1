@@ -96,7 +96,7 @@ plot(stepshist, main = "Histogram: Steps", xlab = "Steps", col="lightgreen")
 lines(stpsdnst, col="darkblue", lwd=2)
 ```
 
-![plot of chunk histogram](figure/histogram.png) 
+![plot of chunk histogram](https://raw.githubusercontent.com/konradedgar/RepData_PeerAssessment1/master/blob/master/figure/histogram.png) 
 
 ### Mean and Median Steps
 The code below calculates and reports mean and median steps using the summary data for the steps. Following [the discussion](https://class.coursera.org/repdata-004/forum/thread?thread_id=25) on the course forum the utilised syntax assumes that we are obtaining one mean and one one median for the total steps per day.
@@ -145,7 +145,7 @@ plot(x = act.dta.avg$interval, y = act.dta.avg$steps, type = "l", lwd = "2",
      ylab = "Mean Steps", xlab = "5 Min Interval")
 ```
 
-![plot of chunk line.plot](figure/line.plot.png) 
+![plot of chunk line.plot](ttps://raw.githubusercontent.com/konradedgar/RepData_PeerAssessment1/master/blob/master/figure/line.plot.png) 
 
 ### Maximum steps
 The code below identifies interval with the maximum number of steps.
@@ -246,7 +246,7 @@ plot(stepshist.nomiss, main = "Histogram: Steps \n Missing data was removed with
 lines(stpsdnst, col="red", lwd=2)
 ```
 
-![plot of chunk new.histogram](figure/new.histogram.png) 
+![plot of chunk new.histogram](https://raw.githubusercontent.com/konradedgar/RepData_PeerAssessment1/master/blob/master/figure/new.histogram.png) 
 
 ```r
 # Obtain mean and median on the new data
@@ -323,4 +323,4 @@ xyplot( steps ~ interval | weekend, data=act.dta.nomiss.avg, type='l',
        par.settings = plot.cols)
 ```
 
-![plot of chunk days.plot](figure/days.plot.png) 
+![plot of chunk days.plot](ttps://raw.githubusercontent.com/konradedgar/RepData_PeerAssessment1/master/blob/master/figure/days.plot.png) 
