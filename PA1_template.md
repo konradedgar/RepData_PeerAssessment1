@@ -145,7 +145,7 @@ plot(x = act.dta.avg$interval, y = act.dta.avg$steps, type = "l", lwd = "2",
      ylab = "Mean Steps", xlab = "5 Min Interval")
 ```
 
-![plot of chunk line.plot](ttps://raw.githubusercontent.com/konradedgar/RepData_PeerAssessment1/master/blob/master/figure/line.plot.png) 
+![plot of chunk line.plot](https://raw.githubusercontent.com/konradedgar/RepData_PeerAssessment1/master/blob/master/figure/line.plot.png) 
 
 ### Maximum steps
 The code below identifies interval with the maximum number of steps.
@@ -323,4 +323,4 @@ xyplot( steps ~ interval | weekend, data=act.dta.nomiss.avg, type='l',
        par.settings = plot.cols)
 ```
 
-![plot of chunk days.plot](ttps://raw.githubusercontent.com/konradedgar/RepData_PeerAssessment1/master/blob/master/figure/days.plot.png) 
+![plot of chunk days.plot](https://raw.githubusercontent.com/konradedgar/RepData_PeerAssessment1/master/blob/master/figure/days.plot.png) 
